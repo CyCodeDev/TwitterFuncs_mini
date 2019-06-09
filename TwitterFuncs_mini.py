@@ -45,12 +45,3 @@ class cytweet: #Twitter API requires that a user use base 64 with a series of co
 		main_header = {'User-Agent': 'Python request', 'Authorization': 'Bearer ' + token, 'Accept-Encoding': 'gzip'}
 		self.results = requests.request('GET', endpoint, headers=main_header, params=self.payload, data=None)
 		return self.results.json()
-
-#	def makeDF(self):
-
-# Combine all json data: json data must be exhaustive
-#	def combineJSON(self):
-		
-
-# Create Pandas dataFrame object with json data
-#	def createDF(jsonData):
