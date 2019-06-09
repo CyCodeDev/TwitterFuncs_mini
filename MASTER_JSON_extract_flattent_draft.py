@@ -1,3 +1,4 @@
+# Converts Twitter JSON response to a dictionary set of data to prep for Pandas
 import json
 import numpy as np
 import pickle
